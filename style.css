@@ -271,23 +271,20 @@
     font-style: italic;
 }
 
-.get_price::after {
+.get_price::after 
+{
+	position: absolute;
+
+    display: inline-block;
+	
 	width: 50px;
     margin: 0 auto;
-    margin-bottom: 2px;
-    padding-top: 10px;
+    padding-top: 35px;
+	margin-left: -50px;
 
     border-bottom: 1.5px solid #0e71cf;
-}
-
-.line_form
-{
-    width: 50px;
-    margin: 0 auto;
-    margin-bottom: 2px;
-    padding-top: 10px;
-
-    border-bottom: 1.5px solid #0e71cf;
+	
+	content: '';
 }
 
 .form input
