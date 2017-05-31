@@ -2,14 +2,14 @@
 {
     font-family: Helvetica_Neue;
 
-    src: url(./fonts/Helvetica_Neue.ttf);
+    src: url(./fonts/Helvetica_Neue./HelveticaNeueCyr-Black.ttf);
 }
 
 @font-face
 {
     font-family: Roboto;
 
-    src: url(./fonts/roboto.ttf);
+    src: url(./fonts/roboto/roboto_black.ttf);
 }
 
 *
@@ -316,12 +316,12 @@
 
 .line
 {
-    width: 1.5px;
-    height: 50px;
+    width: 2px;
+    height: 54.5px;
     margin-top: 13px;
     margin-left: 50%;
 
-    border-left: 1.5px solid #0e71cf;
+    border-left: 2px solid #0e71cf;
 }
 
 .line::before
@@ -332,13 +332,16 @@
 
     width: 5.5px;
     height: 5.5px;
-    margin-left: -4.5px;
+    margin-left: -4.7px;
+	margin-top: -1px;
 
     content: '';
 
     border: 1px solid #0e71cf;
     border-radius: 50%;
     background-color: #0e71cf;
+	
+	box-sizing: border-box;
 }
 
 .presentation
@@ -420,9 +423,8 @@
 {
     font-family: Roboto;
     font-size: 18px;
-    font-style: medium;
-
-    margin-bottom: 20px;
+ 
+	margin-bottom: 20px;
 
     color: #0e71cf;
 }
