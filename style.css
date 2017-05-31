@@ -9,7 +9,21 @@
 {
     font-family: Roboto;
 
-    src: url(./fonts/roboto/roboto_black.ttf);
+    src: url(./fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: Roboto_light;
+
+    src: url(./fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face
+{
+    font-family: Roboto_medium;
+
+    src: url(./fonts/roboto/Roboto-Medium.ttf);
 }
 
 *
@@ -365,7 +379,8 @@
 
 .bottle_lime
 {
-    padding-left: 235px;
+    position: relative;
+	left: 230px;
 }
 
 .flavors
@@ -377,8 +392,8 @@
 {
     display: inline-block;
 
-    width: 58px;
-    height: 58px;
+    width: 54px;
+    height: 54px;
 
     list-style-type: none;
 
@@ -398,10 +413,9 @@
 
 .recomendation
 {
-    font-family: Roboto;
+    font-family: Roboto_light;
     font-size: 16px;
-    font-style: light;
-
+    
     position: absolute;
 
     display: inline-block;
@@ -421,7 +435,7 @@
 
 .recomendation_header
 {
-    font-family: Roboto;
+    font-family: Roboto-medium;
     font-size: 18px;
  
 	margin-bottom: 20px;
