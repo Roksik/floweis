@@ -276,6 +276,8 @@
 .form input
 {
     font-family: Helvetica_Neue;
+
+    color: #000;
     font-size: 12px;
 
     width: 200px;
