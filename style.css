@@ -288,14 +288,12 @@
 
 .get_price::after 
 {
-	position: absolute;
-
     display: inline-block;
 	
 	width: 50px;
-    margin: 0 auto;
-    padding-top: 35px;
-	margin-left: -50px;
+	height: 1.5px;
+    margin-left: -50px;
+	margin-top: -12px;
 
     border-bottom: 1.5px solid #0e71cf;
 	
@@ -771,7 +769,7 @@
 
 .doctors_opinion_center
 {
-    margin: 0 75px;
+    margin: 0 50px;
 
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
@@ -968,18 +966,27 @@
     font-style: italic;
 
     text-align: center;
+	
+	margin-left: 150px;
+	width: 230px;
 }
 
-.logo 
+.logo_bottom
 {
 	background-image: url(./images/logo_nanoplast.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 90px;
+	height: 45px;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .line_bottom
 {
     width: 200px;
-    height: .5px;
-    margin: 14px 0 23px 0;
+    height: 0.5px;
+    margin: 64px 0 23px 0;
 
     border-bottom: 1.5px solid #dadee7;
 }
