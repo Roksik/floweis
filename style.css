@@ -37,6 +37,8 @@
     background-image: url(./images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+	
+	min-width: 1200px;
 }
 
 .site_menu,
@@ -57,7 +59,7 @@
 
 .content
 {
-    width: 1140px;
+	width: 1200px;
     margin: 0 auto;
 }
 
