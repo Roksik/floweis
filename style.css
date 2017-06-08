@@ -73,18 +73,18 @@
 
 .content
 {
-	width: 1200px;
+	width: 1140px;
     margin: 0 auto;
+	outline: 1px solid red;
 }
 
-.logo,
 .header_top,
 .header_bottom,
 .header_right
 {
     display: inline-block;
 
-    width: 33%;
+    width: 379px;
 }
 
 .logo 
@@ -94,6 +94,7 @@
 	background-size: cover;
 	width: 203px;
 	height: 50px;
+	display: inline-block;
 }
 
 .header_top
@@ -104,7 +105,8 @@
 
     text-align: center;
 	padding-left: 170px;
-	margin-bottom: 65px;
+	margin-bottom: 12px;
+	overflow: hidden;
 }
 
 .header_right
@@ -112,7 +114,7 @@
     font-family: Roboto;
     font-size: 20px;
 
-    text-align: right;	
+    text-align: right;
 }
 
 
@@ -130,8 +132,8 @@
 
     display: inline-block;
 
-    width: 200px;
-    height: 30px;
+    width: 201px;
+    height: 46px;
     margin-top: 13px;
     padding-top: 15px;
 
@@ -139,6 +141,7 @@
 
     border-radius: 45px;
     background-color: #0e71cf;
+	box-sizing: border-box;
 }
 
 .button a
@@ -193,16 +196,20 @@
 
     display: inline-block;
 
-    box-sizing: border-box;
+    background-clip: padding-box;
+	box-sizing: border-box;
     width: 60px;
     height: 60px;
+	padding: 10x;
+
 
     text-align: center;
 
     color: #fff;
-    border: 10px solid rgba(126,177,225,.4);
+    border: 10px solid rgba(14,113,207,.6);
     border-radius: 50%;
     background-color: #0e71cf;
+	
 }
 
 .circle_minus
@@ -222,7 +229,7 @@
 
     z-index: 11;
     top: 110px;
-    right: 118px;
+    right: 112px;
 }
 
 .description
@@ -294,17 +301,19 @@
     font-family: Georgia;
     font-size: 22px;
     font-style: italic;
+	
+	position: relative;
 }
 
 .get_price::after 
 {
-    display: inline-block;
-	
+    position: absolute;
+		
 	width: 50px;
 	height: 1.5px;
-    margin-left: -50px;
-	margin-top: -12px;
-
+    
+	margin: auto;
+	left: 0; bottom: -10px; right: 0;
     border-bottom: 1.5px solid #0e71cf;
 	
 	content: '';
@@ -653,7 +662,8 @@
 
     display: inline-block;
 
-    margin-top: 45px;
+    margin: 45px 0 0 -50px;
+	
 }
 
 .slogan_mid
@@ -664,7 +674,7 @@
     display: inline-block;
 
     width: 470px;
-    margin-left: 110px;
+    margin-left: 115px;
 
     text-align: right;
 }
@@ -718,7 +728,7 @@
 .dentist
 {
     position: absolute;
-    right: -15px;
+    right: -5px;
     bottom: 1px;
 
     display: inline-block;
@@ -778,7 +788,7 @@
 
 .doctors_opinion_center
 {
-    margin: 0 75px;
+    margin: 0 50px;
 
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
@@ -907,7 +917,7 @@
 {
     display: inline-block;
 
-    margin-left: 130px;
+    margin-left: 128px;
 }
 
 .post_logos li:first-child
@@ -932,7 +942,7 @@
 
 .info
 {
-    font-family: Roboto;
+    font-family: Roboto_light;
     font-size: 16px;
 
     position: relative;
