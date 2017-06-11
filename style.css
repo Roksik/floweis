@@ -115,6 +115,7 @@
     font-size: 20px;
 
     text-align: right;
+
 }
 
 
@@ -234,7 +235,7 @@
 
 .description
 {
-    font-family: Roboto;
+    font-family: Roboto_light;
     font-size: 16px;
 
     position: absolute;
@@ -272,15 +273,15 @@
     display: inline-block;
 }
 
-.form
+.message_form
 {
     float: right;
 
     margin-top: 27px;
 }
 
-.form,
-.form_bottom
+.message_form,
+.message_form_bottom
 {
     display: inline-block;
 
@@ -303,36 +304,49 @@
     font-style: italic;
 	
 	position: relative;
+	padding-bottom: 10px;
 }
 
 .get_price::after 
 {
     position: absolute;
-		
+	left: 50%;
+	bottom:0;
+	
 	width: 50px;
 	height: 1.5px;
     
-	margin: auto;
-	left: 0; bottom: -10px; right: 0;
+	margin-left: -25px;
+	vertical-align: bottom;
     border-bottom: 1.5px solid #0e71cf;
 	
 	content: '';
 }
 
-.form input
+.message_form input
 {
-    font-family: Helvetica_Neue;
-    font-size: 12px;
-
     width: 200px;
     height: 46px;
     margin-top: 13px;
     padding: 0 20px;
 
-    color: #9ba6b0;
     border: none;
     border-radius: 45px;
     background-color: #364d61;
+}
+
+input::-webkit-input-placeholder 
+{
+	color: #aeb5bb; 
+	font-family: Helvetica_Neue;
+    font-size: 12px;
+}
+
+input::-moz-placeholder 
+{
+	color: #aeb5bb; 
+	font-family: Helvetica_Neue;
+    font-size: 12px;
 }
 
 .header
@@ -453,7 +467,7 @@
 
 .recomendation_header
 {
-    font-family: Roboto-medium;
+    font-family: Roboto_medium;
     font-size: 18px;
  
 	margin-bottom: 20px;
@@ -580,7 +594,7 @@
 	display: inline-block;
 }
 
-.form_mid
+.message_form_mid
 {
     display: inline-block;
     float: right;
@@ -598,7 +612,7 @@
     background-color: #1f394f;
 }
 
-.form_mid input
+.message_form_mid input
 {
     font-family: Helvetica_Neue;
     font-size: 12px;
@@ -610,7 +624,7 @@
     margin-top: 13px;
     padding: 0 20px;
 
-    color: #9ba6b0;
+    color: #aeb5bb;
     border: none;
     border-radius: 45px;
     background-color: #364d61;
@@ -622,7 +636,7 @@
     font-size: 14px;
     font-style: light;
 
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .advantages_list
@@ -709,7 +723,7 @@
     left: 88px;
 }
 
-.form_bottom input
+.message_form_bottom input
 {
     font-family: Helvetica_Neue;
     font-size: 12px;
@@ -719,7 +733,7 @@
     margin-top: 13px;
     padding: 0 20px;
 
-    color: #9ba6b0;
+    color: #aeb5bb;
     border: none;
     border-radius: 45px;
     background-color: #364d61;
@@ -863,7 +877,7 @@
 .opinion_text
 {
     font-family: Helvetica_Neue_Italic;
-    font-size: 14x;
+    font-size: 14px;
     
     margin-bottom: 20px;
 
