@@ -75,7 +75,6 @@
 {
 	width: 1140px;
     margin: 0 auto;
-	outline: 1px solid red;
 }
 
 .header_top,
@@ -650,10 +649,14 @@ input::-moz-placeholder
     font-size: 16px;
     
     width: 600px;
+	
+	margin-top: 12px;
 
     list-style-type: none;
 
     color: #00445c;
+	
+	position: relative;
 }
 
 .advantages_list li::before
@@ -662,12 +665,21 @@ input::-moz-placeholder
 
     width: 24px;
     height: 24px;
-    margin-top: 20px;
+   
     margin-right: 15px;
+	
+	vertical-align: middle;
 
     content: '';
 
     background-image: url(./images/round.png);
+}
+
+.flag 
+{
+	position: absolute;
+	display: inline-block;
+	margin: -10px 0 0 10px;
 }
 
 .tooth
@@ -716,7 +728,7 @@ input::-moz-placeholder
     height: 585px;
 }
 
-.form_bottom
+.message_form_bottom
 {
     position: absolute;
     bottom: 65px;
