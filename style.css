@@ -51,8 +51,8 @@
     background-image: url(./images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-	
-	min-width: 1200px;
+
+    min-width: 1200px;
 }
 
 .site_menu,
@@ -73,7 +73,7 @@
 
 .content
 {
-	width: 1140px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -86,14 +86,14 @@
     width: 379px;
 }
 
-.logo 
+.logo
 {
-	background-image: url(./images/floweis_logo.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 203px;
-	height: 50px;
-	display: inline-block;
+    background-image: url(./images/floweis_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 203px;
+    height: 50px;
+    display: inline-block;
 }
 
 .header_top
@@ -103,9 +103,9 @@
     font-style: italic;
 
     text-align: center;
-	padding-left: 170px;
-	margin-bottom: 12px;
-	overflow: hidden;
+    padding-left: 170px;
+    margin-bottom: 12px;
+    overflow: hidden;
 }
 
 .header_right
@@ -114,7 +114,6 @@
     font-size: 20px;
 
     text-align: right;
-
 }
 
 
@@ -127,7 +126,7 @@
 
 .button
 {
-    font-family: Helvetica_Neue_medium;
+    font-family: Helvetica_Neue_medium sans-serif;
     font-size: 12px;
 
     display: inline-block;
@@ -141,7 +140,7 @@
 
     border-radius: 45px;
     background-color: #0e71cf;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .button a
@@ -197,11 +196,10 @@
     display: inline-block;
 
     background-clip: padding-box;
-	box-sizing: border-box;
+    box-sizing: border-box;
     width: 60px;
     height: 60px;
-	padding: 10x;
-
+    padding: 10x;
 
     text-align: center;
 
@@ -209,7 +207,7 @@
     border: 10px solid rgba(14,113,207,.6);
     border-radius: 50%;
     background-color: #0e71cf;
-	
+
 }
 
 .circle_minus
@@ -301,25 +299,25 @@
     font-family: Georgia;
     font-size: 22px;
     font-style: italic;
-	
-	position: relative;
-	padding-bottom: 10px;
+
+    position: relative;
+    padding-bottom: 10px;
 }
 
-.get_price::after 
+.get_price::after
 {
     position: absolute;
-	left: 50%;
-	bottom:0;
-	
-	width: 50px;
-	height: 1.5px;
-    
-	margin-left: -25px;
-	vertical-align: bottom;
+    left: 50%;
+    bottom: 0;
+
+    width: 50px;
+    height: 1.5px;
+
+    margin-left: -25px;
+    vertical-align: bottom;
     border-bottom: 1.5px solid #0e71cf;
-	
-	content: '';
+
+    content: '';
 }
 
 .message_form input
@@ -334,17 +332,17 @@
     background-color: #364d61;
 }
 
-input::-webkit-input-placeholder 
+input::-webkit-input-placeholder
 {
-	color: #aeb5bb; 
-	font-family: Helvetica_Neue;
+    color: #aeb5bb;
+    font-family: Helvetica_Neue, sans-serif;
     font-size: 12px;
 }
 
-input::-moz-placeholder 
+input::-moz-placeholder
 {
-	color: #aeb5bb; 
-	font-family: Helvetica_Neue;
+    color: #aeb5bb;
+    font-family: Helvetica_Neue, sans-serif;
     font-size: 12px;
 }
 
@@ -378,21 +376,21 @@ input::-moz-placeholder
     width: 5.5px;
     height: 5.5px;
     margin-left: -4.7px;
-	margin-top: -1px;
+    margin-top: -1px;
 
     content: '';
 
     border: 1px solid #0e71cf;
     border-radius: 50%;
     background-color: #0e71cf;
-	
-	box-sizing: border-box;
+
+    box-sizing: border-box;
 }
 
 .presentation
 {
     display: inline-block;
-
+    position: relative;
     margin-top: 20px;
 }
 
@@ -410,8 +408,79 @@ input::-moz-placeholder
 
 .bottle_lime
 {
+    left: 125px;
+    display: inline-block;
+    padding-right: 100px;
     position: relative;
-	left: 230px;
+}
+
+.bottle_lime img
+{
+    margin: 0 85px;
+}
+
+.slider_top_left,
+.slider_top_right
+{
+    display: inline-block;
+
+    width: 8px;
+    height: 14px;
+    margin-bottom: 130px;
+}
+
+.slider_top_left
+{
+    background-image: url(./images/slidermin_left.png);
+    background-repeat: no-repeat;
+}
+
+.slider_top_left::before
+{
+    background-image: url(./images/ellipse_grey_left.png);
+    background-repeat: no-repeat;
+
+    content: '';
+
+    width: 48px;
+    height: 50px;
+
+    position: absolute;
+    margin: -18px 0 0 -20px;
+}
+
+.slider_top_left:hover:before,
+.slider_top_left:active:before
+{
+    background-image: url(./images/ellipse_blue_left.png);
+    background-repeat: no-repeat;
+}
+
+.slider_top_right
+{
+    background-image: url(./images/slidermin_right.png);
+    background-repeat: no-repeat;
+}
+
+.slider_top_right::before
+{
+    background-image: url(./images/ellipse_grey_right.png);
+    background-repeat: no-repeat;
+
+    content: '';
+
+    width: 55px;
+    height: 50px;
+
+    position: absolute;
+    margin: -17px 0 0 -20px;
+}
+
+.slider_top_right:hover:before,
+.slider_top_right:active:before
+{
+    background-image: url(./images/ellipse_blue_right.png);
+    background-repeat: no-repeat;
 }
 
 .flavors
@@ -438,15 +507,19 @@ input::-moz-placeholder
 
 .current
 {
-    background-image: url(./images/ellipse_small.png);
+    background-image: url(./images/current_ellipse.png);
     background-repeat: no-repeat;
+
+    width: 55px;
+    height: 56px;
+    padding-bottom: 3px;
 }
 
 .recomendation
 {
     font-family: Roboto_light;
     font-size: 16px;
-    
+
     position: absolute;
 
     display: inline-block;
@@ -468,8 +541,8 @@ input::-moz-placeholder
 {
     font-family: Roboto_medium;
     font-size: 18px;
- 
-	margin-bottom: 20px;
+
+    margin-bottom: 20px;
 
     color: #0e71cf;
 }
@@ -515,7 +588,7 @@ input::-moz-placeholder
     background-color: #0e71cf;
 }
 
-.first_line_10
+.first_line_sale
 {
     font-family: Roboto;
     font-size: 54px;
@@ -523,9 +596,9 @@ input::-moz-placeholder
     color: #fff;
 }
 
-.second_line_10
+.second_line_sale
 {
-    font: 16px italic georgia ;
+    font: 16px italic georgia;
 
     color: #fff;
 }
@@ -584,13 +657,13 @@ input::-moz-placeholder
     width: 190px;
     height: 1.5px;
     margin-bottom: 8px;
-	margin-right: -170px;
-	
-	content: '';
+    margin-right: -170px;
+
+    content: '';
 
     border-bottom: 1.5px solid #7a86a2;
-	
-	display: inline-block;
+
+    display: inline-block;
 }
 
 .message_form_mid
@@ -647,16 +720,16 @@ input::-moz-placeholder
 {
     font-family: Roboto-Light;
     font-size: 16px;
-    
+
     width: 600px;
-	
-	margin-top: 12px;
+
+    margin-top: 12px;
 
     list-style-type: none;
 
     color: #00445c;
-	
-	position: relative;
+
+    position: relative;
 }
 
 .advantages_list li::before
@@ -665,21 +738,21 @@ input::-moz-placeholder
 
     width: 24px;
     height: 24px;
-   
+
     margin-right: 15px;
-	
-	vertical-align: middle;
+
+    vertical-align: middle;
 
     content: '';
 
     background-image: url(./images/round.png);
 }
 
-.flag 
+.flag
 {
-	position: absolute;
-	display: inline-block;
-	margin: -10px 0 0 10px;
+    position: absolute;
+
+    margin: -10px 0 0 10px;
 }
 
 .tooth
@@ -689,7 +762,7 @@ input::-moz-placeholder
     display: inline-block;
 
     margin: 45px 0 0 -50px;
-	
+
 }
 
 .slogan_mid
@@ -791,51 +864,66 @@ input::-moz-placeholder
     background-color: #0e71cf;
 }
 
-.opinion
+.recall
 {
     position: relative;
 }
 
-.doctors_opinion_left,
-.doctors_opinion_right,
-.doctors_opinion_center
+.doctors_opinion
 {
     display: inline-block;
-
     width: 253px;
-    margin-top: 35px;
+    margin: 35px 0 0 65px;
     padding: 25px 20px;
 }
 
-.doctors_opinion_left
+.doctors_opinion:hover
 {
-    margin-left: 80px;
-}
-
-.doctors_opinion_center
-{
-    margin: 0 50px;
-
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
-.slider_grey
+.slider_button
 {
     position: absolute;
     bottom: 300px;
 
     display: inline-block;
+
 }
 
-.slider_blue
+.slider_button_prev
 {
-    position: absolute;
-    bottom: 300px;
+    width: 18px;
+    height: 30px;
 
-    display: inline-block;
+    background-image: url(./images/slider_grey_left.png);
+    background-repeat: no-repeat;
+}
 
-    padding-left: 60px;
+.slider_button_prev:hover,
+.slider_button_prev:active
+{
+    background-image: url(./images/slider_left_blue.png);
+    background-repeat: no-repeat;
+}
+
+.slider_button_next
+{
+    width: 18px;
+    height: 30px;
+
+    background-image: url(./images/slider_grey_right.png);
+    background-repeat: no-repeat;
+
+    margin-left: 30px;
+}
+
+.slider_button_next:hover,
+.slider_button_next:active
+{
+    background-image: url(./images/slider_right_blue.png);
+    background-repeat: no-repeat;
 }
 
 .photo
@@ -866,20 +954,30 @@ input::-moz-placeholder
     text-align: center;
 
     color: #898a8a;
+    position: relative;
+    padding-bottom: 20px;
 }
 
-.line_opinion
+.profession::after
 {
-    width: 50px;
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    bottom:0;
 
+    width: 50px;
+    height: 1.5px;
+
+    margin-left: -25px;
+    vertical-align: bottom;
     border-bottom: 2px solid #f0f6ff;
+
+    content: '';
 }
 
 .header_opinion
 {
     font-family: Georgia;
-    font-size: 18x;
+    font-size: 18px;
 
     margin: 15px 2px;
 
@@ -890,12 +988,12 @@ input::-moz-placeholder
 {
     font-family: Helvetica_Neue_Italic;
     font-size: 14px;
-    
+
     margin-bottom: 20px;
 
-    text-align: justify;
-
     color: #747474;
+
+    line-height: 20px;
 }
 
 .read_more
@@ -948,7 +1046,7 @@ input::-moz-placeholder
 
 .post_logos li:first-child
 {
-    margin-bottom: 25px;
+    margin-top: 50px;
     margin-left: 0;
 }
 
@@ -959,7 +1057,7 @@ input::-moz-placeholder
     width: 100%;
 }
 
-.info_bottom div
+.info_bottom
 {
     margin-bottom: 45px;
 
@@ -975,21 +1073,35 @@ input::-moz-placeholder
 
     display: inline-block;
 
-    margin-left: 30px;
+    margin-left: 35px;
 
     color: #00445c;
+}
+
+.info a::after
+{
+    display: inline-block;
+
+    width: 54px;
+    height: 55px;
+    margin: -5px 0 0 -43px;
+
+    content: '';
+
+    background-image: url(./images/ellipse_bottom.png);
+    position: absolute;
 }
 
 .info p
 {
     display: inline-block;
 
-    padding-left: 30px;
+    padding-left: 35px;
 }
 
-.ellipse_bottom
+.info:first-child
 {
-    position: absolute;
+    margin-left: 0;
 }
 
 .free
@@ -1009,20 +1121,20 @@ input::-moz-placeholder
     font-style: italic;
 
     text-align: center;
-	
-	margin-left: 150px;
-	width: 230px;
+
+    margin-left: 150px;
+    width: 230px;
 }
 
 .logo_bottom
 {
-	background-image: url(./images/logo_nanoplast.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 90px;
-	height: 45px;
-	display: inline-block;
-	margin-left: 20px;
+    background-image: url(./images/logo_nanoplast.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 45px;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .line_bottom
