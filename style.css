@@ -1032,9 +1032,10 @@ input::-moz-placeholder
 
 .post_logos
 {
-    box-sizing: border-box;
     height: 100px;
-    margin: 40px 0 50px 0;
+    width: 1140px;
+    margin: 40px 90px 50px 0;
+
 }
 
 .post_logos li
@@ -1046,7 +1047,6 @@ input::-moz-placeholder
 
 .post_logos li:first-child
 {
-    margin-top: 50px;
     margin-left: 0;
 }
 
