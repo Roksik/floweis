@@ -98,7 +98,7 @@
 
 .header_top
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 28px;
     font-style: italic;
 
@@ -110,7 +110,7 @@
 
 .header_right
 {
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-size: 20px;
 
     text-align: right;
@@ -159,7 +159,7 @@
 
 .slogan
 {
-    font-family: Roboto_light;
+    font-family: Roboto_light sans-serif;
     font-size: 24px;
 
     display: inline-block;
@@ -232,7 +232,7 @@
 
 .description
 {
-    font-family: Roboto_light;
+    font-family: Roboto_light sans-serif;
     font-size: 16px;
 
     position: absolute;
@@ -296,7 +296,7 @@
 
 .get_price
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 22px;
     font-style: italic;
 
@@ -348,7 +348,7 @@ input::-moz-placeholder
 
 .header
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 24px;
     font-style: italic;
 
@@ -396,7 +396,7 @@ input::-moz-placeholder
 
 .presentation p
 {
-    font-family: Roboto_light;
+    font-family: Roboto_light sans-serif;
     font-size: 20px;
 
     padding-bottom: 30px;
@@ -517,7 +517,7 @@ input::-moz-placeholder
 
 .recomendation
 {
-    font-family: Roboto_light;
+    font-family: Roboto_light sans-serif;
     font-size: 16px;
 
     position: absolute;
@@ -539,7 +539,7 @@ input::-moz-placeholder
 
 .recomendation_header
 {
-    font-family: Roboto_medium;
+    font-family: Roboto_medium sans-serif;
     font-size: 18px;
 
     margin-bottom: 20px;
@@ -590,7 +590,7 @@ input::-moz-placeholder
 
 .first_line_sale
 {
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-size: 54px;
 
     color: #fff;
@@ -598,7 +598,7 @@ input::-moz-placeholder
 
 .second_line_sale
 {
-    font: 16px italic georgia;
+    font: 16px italic Georgia;
 
     color: #fff;
 }
@@ -618,7 +618,7 @@ input::-moz-placeholder
 .old_price,
 .old_small
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-style: italic;
 }
 
@@ -686,7 +686,7 @@ input::-moz-placeholder
 
 .message_form_mid input
 {
-    font-family: Helvetica_Neue;
+    font-family: Helvetica_Neue sans-serif;
     font-size: 12px;
     font-style: medium;
 
@@ -704,7 +704,7 @@ input::-moz-placeholder
 
 .condition
 {
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-size: 14px;
     font-style: light;
 
@@ -718,7 +718,7 @@ input::-moz-placeholder
 
 .advantages_list li
 {
-    font-family: Roboto-Light;
+    font-family: Roboto-Light sans-serif;
     font-size: 16px;
 
     width: 600px;
@@ -780,7 +780,7 @@ input::-moz-placeholder
 
 .slogan_mid p
 {
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-size: 20px;
 
     display: inline-block;
@@ -810,7 +810,7 @@ input::-moz-placeholder
 
 .message_form_bottom input
 {
-    font-family: Helvetica_Neue;
+    font-family: Helvetica_Neue sans-serif;
     font-size: 12px;
 
     width: 200px;
@@ -852,7 +852,7 @@ input::-moz-placeholder
 
 .slogan_bottom p
 {
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-size: 20px;
 
     display: inline-block;
@@ -933,7 +933,7 @@ input::-moz-placeholder
 
 .full_name
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 20px;
     font-style: italic;
 
@@ -946,7 +946,7 @@ input::-moz-placeholder
 
 .profession
 {
-    font-family: Roboto_light;
+    font-family: Roboto_light sans-serif;
     font-size: 14px;
 
     margin-bottom: 20px;
@@ -976,7 +976,7 @@ input::-moz-placeholder
 
 .header_opinion
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 18px;
 
     margin: 15px 2px;
@@ -986,7 +986,7 @@ input::-moz-placeholder
 
 .opinion_text
 {
-    font-family: Helvetica_Neue_Italic;
+    font-family: Helvetica_Neue_Italic sans-serif;
     font-size: 14px;
 
     margin-bottom: 20px;
@@ -998,7 +998,7 @@ input::-moz-placeholder
 
 .read_more
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 14px;
     font-style: italic;
 
@@ -1066,7 +1066,7 @@ input::-moz-placeholder
 
 .info
 {
-    font-family: Roboto_light;
+    font-family: Roboto_light sans-serif;
     font-size: 16px;
 
     position: relative;
@@ -1116,7 +1116,7 @@ input::-moz-placeholder
 
 .header_bottom
 {
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 24px;
     font-style: italic;
 
