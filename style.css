@@ -48,8 +48,7 @@
 
 .promo
 {
-    background-image: url(./images/banner.jpg);
-    background-repeat: no-repeat;
+    background: url(./images/banner.jpg) no-repeat;
     background-size: cover;
 
     min-width: 1200px;
@@ -88,8 +87,7 @@
 
 .logo
 {
-    background-image: url(./images/floweis_logo.png);
-    background-repeat: no-repeat;
+    background: url(./images/floweis_logo.png) no-repeat;
     background-size: cover;
     width: 203px;
     height: 50px;
@@ -98,7 +96,7 @@
 
 .header_top
 {
-    font-family: Georgia serif;
+    font-family: Georgia, serif;
     font-size: 28px;
     font-style: italic;
 
@@ -110,7 +108,7 @@
 
 .header_right
 {
-    font-family: Roboto sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
 
     text-align: right;
@@ -126,7 +124,7 @@
 
 .button
 {
-    font-family: Helvetica_Neue_medium sans-serif;
+    font-family: Helvetica_Neue_medium, sans-serif;
     font-size: 12px;
 
     display: inline-block;
@@ -159,7 +157,7 @@
 
 .slogan
 {
-    font-family: Roboto_light sans-serif;
+    font-family: Roboto_light, sans-serif;
     font-size: 24px;
 
     display: inline-block;
@@ -199,7 +197,6 @@
     box-sizing: border-box;
     width: 60px;
     height: 60px;
-    padding: 10x;
 
     text-align: center;
 
@@ -232,7 +229,7 @@
 
 .description
 {
-    font-family: Roboto_light sans-serif;
+    font-family: Roboto_light, sans-serif;
     font-size: 16px;
 
     position: absolute;
@@ -296,7 +293,7 @@
 
 .get_price
 {
-    font-family: Georgia serif;
+    font-family: Georgia, serif;
     font-size: 22px;
     font-style: italic;
 
@@ -348,7 +345,7 @@ input::-moz-placeholder
 
 .header
 {
-    font-family: Georgia serif;
+    font-family: Georgia, serif;
     font-size: 24px;
     font-style: italic;
 
@@ -396,7 +393,7 @@ input::-moz-placeholder
 
 .presentation p
 {
-    font-family: Roboto_light sans-serif;
+    font-family: Roboto_light, sans-serif;
     font-size: 20px;
 
     padding-bottom: 30px;
@@ -431,14 +428,12 @@ input::-moz-placeholder
 
 .slider_top_left
 {
-    background-image: url(./images/slidermin_left.png);
-    background-repeat: no-repeat;
+    background: url(./images/slidermin_left.png) no-repeat;
 }
 
 .slider_top_left::before
 {
-    background-image: url(./images/ellipse_grey_left.png);
-    background-repeat: no-repeat;
+    background: url(./images/ellipse_grey_left.png) no-repeat;
 
     content: '';
 
@@ -452,20 +447,17 @@ input::-moz-placeholder
 .slider_top_left:hover:before,
 .slider_top_left:active:before
 {
-    background-image: url(./images/ellipse_blue_left.png);
-    background-repeat: no-repeat;
+    background: url(./images/ellipse_blue_left.png) no-repeat;
 }
 
 .slider_top_right
 {
-    background-image: url(./images/slidermin_right.png);
-    background-repeat: no-repeat;
+    background: url(./images/slidermin_right.png) no-repeat;
 }
 
 .slider_top_right::before
 {
-    background-image: url(./images/ellipse_grey_right.png);
-    background-repeat: no-repeat;
+    background: url(./images/ellipse_grey_right.png) no-repeat;
 
     content: '';
 
@@ -479,8 +471,7 @@ input::-moz-placeholder
 .slider_top_right:hover:before,
 .slider_top_right:active:before
 {
-    background-image: url(./images/ellipse_blue_right.png);
-    background-repeat: no-repeat;
+    background: url(./images/ellipse_blue_right.png) 0;
 }
 
 .flavors
@@ -507,8 +498,7 @@ input::-moz-placeholder
 
 .current
 {
-    background-image: url(./images/current_ellipse.png);
-    background-repeat: no-repeat;
+    background: url(./images/current_ellipse.png) no-repeat;
 
     width: 55px;
     height: 56px;
@@ -517,7 +507,7 @@ input::-moz-placeholder
 
 .recomendation
 {
-    font-family: Roboto_light sans-serif;
+    font-family: Roboto_light, sans-serif;
     font-size: 16px;
 
     position: absolute;
@@ -539,7 +529,7 @@ input::-moz-placeholder
 
 .recomendation_header
 {
-    font-family: Roboto_medium sans-serif;
+    font-family: Roboto_medium, sans-serif;
     font-size: 18px;
 
     margin-bottom: 20px;
@@ -590,7 +580,7 @@ input::-moz-placeholder
 
 .first_line_sale
 {
-    font-family: Roboto sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 54px;
 
     color: #fff;
@@ -598,7 +588,7 @@ input::-moz-placeholder
 
 .second_line_sale
 {
-    font: 16px italic Georgia;
+    font: 16px italic Georgia, serif;
 
     color: #fff;
 }
@@ -618,7 +608,7 @@ input::-moz-placeholder
 .old_price,
 .old_small
 {
-    font-family: Georgia serif;
+    font-family: Georgia, serif;
     font-style: italic;
 }
 
@@ -686,9 +676,8 @@ input::-moz-placeholder
 
 .message_form_mid input
 {
-    font-family: Helvetica_Neue sans-serif;
+    font-family: Helvetica_Neue, sans-serif;
     font-size: 12px;
-    font-style: medium;
 
     box-sizing: border-box;
     width: 240px;
@@ -704,9 +693,8 @@ input::-moz-placeholder
 
 .condition
 {
-    font-family: Roboto sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
-    font-style: light;
 
     margin-top: 10px;
 }
@@ -718,7 +706,7 @@ input::-moz-placeholder
 
 .advantages_list li
 {
-    font-family: Roboto-Light sans-serif;
+    font-family: Roboto-Light, sans-serif;
     font-size: 16px;
 
     width: 600px;
@@ -780,7 +768,7 @@ input::-moz-placeholder
 
 .slogan_mid p
 {
-    font-family: Roboto sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
 
     display: inline-block;
@@ -810,7 +798,7 @@ input::-moz-placeholder
 
 .message_form_bottom input
 {
-    font-family: Helvetica_Neue sans-serif;
+    font-family: Helvetica_Neue, sans-serif;
     font-size: 12px;
 
     width: 200px;
@@ -852,7 +840,7 @@ input::-moz-placeholder
 
 .slogan_bottom p
 {
-    font-family: Roboto sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
 
     display: inline-block;
@@ -897,15 +885,13 @@ input::-moz-placeholder
     width: 18px;
     height: 30px;
 
-    background-image: url(./images/slider_grey_left.png);
-    background-repeat: no-repeat;
+    background: url(./images/slider_grey_left.png) no-repeat;
 }
 
 .slider_button_prev:hover,
 .slider_button_prev:active
 {
-    background-image: url(./images/slider_left_blue.png);
-    background-repeat: no-repeat;
+    background: url(./images/slider_left_blue.png) no-repeat;
 }
 
 .slider_button_next
@@ -913,17 +899,17 @@ input::-moz-placeholder
     width: 18px;
     height: 30px;
 
-    background-image: url(./images/slider_grey_right.png);
-    background-repeat: no-repeat;
+    background: url(./images/slider_grey_right.png) no-repeat;
 
     margin-left: 30px;
+
+    right: 5px;
 }
 
 .slider_button_next:hover,
 .slider_button_next:active
 {
-    background-image: url(./images/slider_right_blue.png);
-    background-repeat: no-repeat;
+    background: url(./images/slider_right_blue.png) no-repeat;
 }
 
 .photo
@@ -946,7 +932,7 @@ input::-moz-placeholder
 
 .profession
 {
-    font-family: Roboto_light sans-serif;
+    font-family: Roboto_light, sans-serif;
     font-size: 14px;
 
     margin-bottom: 20px;
@@ -986,7 +972,7 @@ input::-moz-placeholder
 
 .opinion_text
 {
-    font-family: Helvetica_Neue_Italic sans-serif;
+    font-family: Helvetica_Neue_Italic, sans-serif;
     font-size: 14px;
 
     margin-bottom: 20px;
@@ -998,7 +984,7 @@ input::-moz-placeholder
 
 .read_more
 {
-    font-family: Georgia serif;
+    font-family: Georgia, serif;
     font-size: 14px;
     font-style: italic;
 
@@ -1066,7 +1052,7 @@ input::-moz-placeholder
 
 .info
 {
-    font-family: Roboto_light sans-serif;
+    font-family: Roboto_light, sans-serif;
     font-size: 16px;
 
     position: relative;
@@ -1116,7 +1102,7 @@ input::-moz-placeholder
 
 .header_bottom
 {
-    font-family: Georgia serif;
+    font-family: Georgia, serif;
     font-size: 24px;
     font-style: italic;
 
@@ -1128,8 +1114,7 @@ input::-moz-placeholder
 
 .logo_bottom
 {
-    background-image: url(./images/logo_nanoplast.png);
-    background-repeat: no-repeat;
+    background: url(./images/logo_nanoplast.png) no-repeat;
     background-size: cover;
     width: 90px;
     height: 45px;
