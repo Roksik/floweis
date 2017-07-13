@@ -309,7 +309,7 @@
 
     margin-left: -25px;
     vertical-align: bottom;
-    border-bottom: 1.5px solid #0e71cf;
+    border-bottom: 1.5px solid rgba(48, 56, 207, 0);
 
     content: '';
 }
@@ -733,11 +733,16 @@ input::-moz-placeholder
     background-image: url(./images/round.png);
 }
 
-.flag
+.flag::after
 {
+    background-image: url(./images/flag.png);
+    width: 39px;
+    height: 40px;
     position: absolute;
 
     margin: -10px 0 0 10px;
+
+    content: '';
 }
 
 .tooth
