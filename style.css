@@ -309,7 +309,7 @@
 
     margin-left: -25px;
     vertical-align: bottom;
-    border-bottom: 1.5px solid rgba(48, 56, 207, 0);
+    border-bottom: 1.5px solid #0e71cf;
 
     content: '';
 }
@@ -349,19 +349,25 @@ input::-moz-placeholder
     padding-top: 55px;
 
     text-align: center;
+    position: relative;
+
 }
 
-.line
+.header::after
 {
     width: 2px;
     height: 54.5px;
-    margin-top: 13px;
-    margin-left: 50%;
+    margin-top: 15px;
+    text-align: center;
 
     border-left: 2px solid #0e71cf;
+
+    content: '';
+
+    position: absolute;
 }
 
-.line::before
+.header::before
 {
     position: absolute;
 
@@ -369,8 +375,7 @@ input::-moz-placeholder
 
     width: 5.5px;
     height: 5.5px;
-    margin-left: -4.7px;
-    margin-top: -1px;
+    margin: 5px 10px 0 0;
 
     content: '';
 
